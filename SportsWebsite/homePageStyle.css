@@ -1,0 +1,52 @@
+a:link {
+color: white;
+background-color: transparent;
+text-decoration: none;
+}
+a:visited {
+color: white;
+background-color: transparent;
+text-decoration: none;
+}
+a:hover {
+color: white;
+background-color: transparent;
+text-decoration: underline;
+}
+a:active {
+color: white;
+background-color: transparent;
+text-decoration: underline;
+}
+table{
+  background-color: black;
+  height: 50px;
+}
+td{
+  width: 200px;
+}
+div#d1{
+  font-size: 400%;
+ background-color: LightGrey  ;
+ text-align: center;
+ padding: 20px;
+}
+img#img2{
+  width: 100%;
+  Height: 400px;
+}
+table,td{
+  text-align: right;
+}
+div#d2{
+  background-color: black;
+  height: 50px;
+}
+img#img1{
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+}
+p#p1{
+  font-size: 20px;
+}
