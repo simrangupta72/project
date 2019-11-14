@@ -21,22 +21,55 @@ text-decoration: underline;
 table{
   background-color: black;
   height: 50px;
+  position: fixed;
+    margin-right: 15px;
 }
 td{
   width: 200px;
 }
 div#d1{
-  font-size: 400%;
- background-color: LightGrey  ;
- text-align: center;
+  font-size: 50px;
  padding: 20px;
+ padding-left: 0px;
+ font-family: "Maiandra GD";
+}
+div#d5{
+  font-size: 30px;
+
+ padding-left: 0px;
+ font-family: "Maiandra GD";
+ padding: 5px;
+ background-color: black;
+ color: white;
+
+}
+div#d6{
+  font-size: 25px;
+ padding: 20px;
+ padding-left: 0px;
+ font-family: "Maiandra GD";
+}
+div#d7{
+  background-color: #a9ce46;
+  font-size: 30px;
+  font-family: "Arabic Typesetting";
+}
+div#d8{
+  background-color: LightGrey;
+    font-size: 23px;
+    font-family: "Arabic Typesetting";
+    height: 700px;
 }
 img#img2{
   width: 100%;
   Height: 400px;
 }
-table,td{
+td#im{
+  text-align: left;
+}
+table ,td{
   text-align: right;
+  font-family: "Maiandra GD";
 }
 div#d2{
   background-color: black;
@@ -48,5 +81,62 @@ img#img1{
   border-radius: 30px;
 }
 p#p1{
-  font-size: 20px;
+  font-size: 25px;
+  font-family: "Arabic Typesetting";
+}
+
+div#d3{
+  width: 50%;
+  background-color: LightGrey;
+    font-size: 23px;
+    font-family: "Arabic Typesetting";
+    flex:1;
+}
+div#d9{
+
+  background-color: black;
+  height: 200px;
+}
+div#d4{
+  width: 50%;
+  background-color: #a9ce46;
+    font-size: 50px;
+    font-family: "Monotype Corsiva";
+    flex:1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+h2#h1{
+  background-color: black;
+  color: white;
+  font-family: "Maiandra GD";
+  margin-block-start: 0px;
+}
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.im1{
+  height: 200px;
+  width: 300px;
+}
+.im2{
+  border-radius: 20px;
+  margin-left: 20px;
+}
+.im3{
+  border-radius: 50px;
+  margin-left: 20px;
+  margin-right: 25px;
+}
+.im4{
+  padding: 70px;
+  padding-left: 550px;
 }
