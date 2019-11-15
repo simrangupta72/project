@@ -126,6 +126,8 @@ h2#h1{
 .im1{
   height: 200px;
   width: 300px;
+  border-radius: 30px;
+
 }
 .im2{
   border-radius: 20px;
@@ -137,6 +139,15 @@ h2#h1{
   margin-right: 25px;
 }
 .im4{
-  padding: 70px;
-  padding-left: 550px;
+
+  padding-left: 565px;
+
+}
+p#p3{
+  text-align: center;
+  color: White;
+  font-family: "Maiandra GD";
+  padding-top: 30px;
+  font-size: 30px;
+  padding-bottom: 0px;
 }
