@@ -24,6 +24,7 @@ table{
   position: fixed;
   top: 0;
     margin-right: 15px;
+        z-index: 1;
 }
 td{
   width: 200px;
@@ -115,11 +116,6 @@ h2#h1{
   font-family: "Maiandra GD";
   margin-block-start: 0px;
 }
-.column {
-  float: left;
-  width: 30%;
-  padding: 5px;
-}
 
 .row::after {
   content: "";
@@ -130,6 +126,7 @@ h2#h1{
   height: 200px;
   width: 300px;
   border-radius: 30px;
+
 
 }
 .im2{
@@ -153,4 +150,26 @@ p#p3{
   padding-top: 30px;
   font-size: 30px;
   padding-bottom: 0px;
+}
+.container {
+  position: relative;
+  margin: 0 auto;
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+.container img {vertical-align: middle;}
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 88%;
+  padding: 20px;
+  border-radius: 40px;
+  height: 50px;
+}
+.content{
+      margin-bottom: 5px;
 }
