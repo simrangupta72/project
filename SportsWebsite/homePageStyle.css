@@ -22,6 +22,7 @@ table{
   background-color: black;
   height: 50px;
   position: fixed;
+  top: 0;
     margin-right: 15px;
 }
 td{
@@ -39,6 +40,7 @@ div#d5{
  padding-left: 0px;
  font-family: "Maiandra GD";
  padding: 5px;
+ padding-top:0px;
  background-color: black;
  color: white;
 
@@ -53,6 +55,7 @@ div#d7{
   background-color: #a9ce46;
   font-size: 30px;
   font-family: "Arabic Typesetting";
+  padding-bottom: 15px;
 }
 div#d8{
   background-color: LightGrey;
